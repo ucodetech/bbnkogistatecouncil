@@ -1,0 +1,505 @@
+.wrapper{
+  height:100vh;
+}
+.ucodeColor{
+  background: linear-gradient(to left, blue 20%, white 150%);
+}
+.ucodeThumbup{
+  color:#f83990;
+  font-size: 30px;
+}
+.btn-two{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+@keyframes ucodeThumbup {
+    from {background-color: red;}
+    to {background-color: green;}
+}
+.ucodeShadow{
+  box-shadow: 0 5px 10px red;
+}
+
+.ucodeBtn{
+  border-radius:50px;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(to right, #0acffe 0%,  #495aff 100%);
+  border:none;
+}
+.ucodeBtn:hover{
+  background: linear-gradient(to right,  #495aff 0%,  #0acffe  100%);
+
+}
+.cadet-hr{
+  height:2px;
+  border-radius: 100px;
+}
+.ucodeHr{
+  height:2px;
+  border-radius: 100px;
+}
+.ucodeLinkBtn{
+  border-radius: 100px;
+  width: 50%;
+  border:2px solid #fff;
+}
+@media (max-width: 720px) {
+  .wrapper{
+    margin:2px;
+  }
+}
+.header-uzb{
+/*  background-image: url('banner1.jpg');
+*/  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+#overlay {
+  position: relative; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+  	height: auto;
+    padding: 28px; /* Some padding */
+}
+.container.tu{
+  margin-bottom: 10;
+}
+ .user{
+        font-size: 80px;
+        margin-bottom: 5px;
+      }
+
+.bg-green{
+  background: #29870bd1;
+}
+ .bg-lightgrey{
+   background: lightgrey;
+ }
+.navbar-brand{
+  font-family: Poppins;
+  font-size: 30px;
+  color: #fff;
+
+}
+.navbar-brand:hover{
+  color:orangered;
+}
+.f, .w, .y, .i{
+  font-size:30px;
+  margin:5;
+
+}
+
+.icons{
+ margin-top: 10px;
+}
+.nav-item:hover{
+  color:orangered;
+}
+.navbar-toggler-icon{
+  color: #fff;
+}
+.fa-arrow-down{
+  margin-left: 20px;
+}
+.hr{
+  background: orangered;
+  height: 5px;
+  border-radius: 20px;
+}
+.hrs{
+  background: orangered;
+  height: 4px;
+  border-radius: 20px;
+  width: 30%;
+}
+.hrss{
+  background: orangered;
+  height: 4px;
+  border-radius: 20px;
+  width: 30%;
+}
+/* nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+} */
+
+
+/*//drag drop*/
+
+
+.box {
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+}
+/*//drag drop*/
+
+
+.box {
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.box-tools {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.dropzone-wrapper {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+  position: relative;
+  height: 150px;
+}
+
+.dropzone-desc {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 40%;
+  top: 50px;
+  font-size: 16px;
+}
+
+.dropzone,
+.dropzone:focus {
+  position: absolute;
+  outline: none !important;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+  background: #ecf0f5;
+}
+
+.preview-zone {
+  text-align: center;
+}
+
+.preview-zone .box {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+
+small.uploads{
+  padding-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.box-tools {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.dropzone-wrapper {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+  position: relative;
+  height: 150px;
+}
+
+.dropzone-desc {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 40%;
+  top: 50px;
+  font-size: 16px;
+}
+
+.dropzone,
+.dropzone:focus {
+  position: absolute;
+  outline: none !important;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+  background: #ecf0f5;
+}
+
+.preview-zone {
+  text-align: center;
+}
+
+.preview-zone .box {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+
+small.uploads{
+  padding-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+
+
+.bg-steel{
+  background-color: #5f788a;
+}
+
+
+.content-section{
+  background:#ddd;
+  padding: 10px 20px;
+  border: 1px solid #cbd5db;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.article-title{
+  color: #444444;
+}
+a.article-title:hover{
+  color: #428bca;
+  text-decoration: none;
+}
+.article-svg{
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.account-img{
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+.account-heading{
+  font-size: 2.5rem;
+}
+.iconss .f{
+    font-size:20px;
+}
+.comment{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+/*.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+       background: linear-gradient(to right, #0acffe 0%,  #495aff 100%);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+      background: radial-gradient(circle at 30% 107%, #d225a1 0%, #564cd7 5%, #b82392 45%,#d225a1 60%,#285AEB 90%);
+     height: 10px !important;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: linear-gradient(to right,  #495aff 0%,  #0acffe  100%);
+}
+
+.rightShare{
+  position: fixed;
+  top: 30%;
+  bottom:30%;
+  right: 100%;
+  left: 0;
+  display: block;
+  background: #fff;
+  width: 4%;
+  border-radius: 20px;
+  color: #000;
+}
+.rightShare .container{
+  padding:5;
+}
+.rightShare span{
+  font-size: 30px;
+
+}
+@media only screen and (min-width: 600px) {
+  /*  .rightShare{
+  position: fixed;
+  top: 100%;
+  bottom:0;
+  right: 0;
+  left: 0;
+  display: inline;
+  background-color: #fff;
+  width: auto;
+  border-radius: 20px;
+  padding: 15px;
+}
+.rightShare span{
+  padding: 5px;
+  font-size: 30px;
+
+
+}*/
+
+}
+
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+cadet-hr
+  and (-webkit-min-device-pixel-ratio: 3)
+
+  and (orientation: portrait) {
+
+  /* CSd-md-blockS Rules Here */
+
+}
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (-webkit-min-device-pixel-ratio: 3)
+
+  and (orientation: landscape) {
+
+  /* CSS Rules Here */
+
+}
+.header2 {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f89565;
+}
+
+/* The progress container (grey background) */
+.top-navbar {
+  width: 100%;
+  height: 8px;
+  background: #356;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: red;
+  width: 0%;
+}
+.line{
+  height: 100px;
+  width: 100%;
+  background: #262728;
+  position: fixed;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* //multi setp */
+#evtImg:hover{
+  opacity: 0.7;
+}
+
+.bg-cadet{
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+  	height: auto;
+}

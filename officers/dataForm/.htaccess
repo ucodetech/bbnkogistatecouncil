@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^boysOnly/([0-9a-zA-Z_-]+)$ boysOnly.php?control=$1 [NC,L]
+
+RewriteRule ^officersOnly/([0-9a-zA-Z_-]+)$ officersOnly.php?control=$1 [NC,L]
+
+RewriteRule ^mothersOnly/([0-9a-zA-Z_-]+)$ mothersOnly.php?control=$1 [NC,L]
+
+RewriteRule ^patronsOnly/([0-9a-zA-Z_-]+)$ patronsOnly.php?control=$1 [NC,L]
+
+

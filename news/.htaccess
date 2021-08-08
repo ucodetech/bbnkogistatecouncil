@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^read/([0-9a-zA-Z_-]+)$ read.php?slug_url=$1 [NC,L]

@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteRule ^command-editGallery/([0-9a-zA-Z_-]+)$ command-editGallery.php?edit=$1 [NC,L]
+RewriteRule ^command-editGallery/([0-9a-zA-Z_-]+)$ command-editGallery.php?delete_image=$1 [NC,L]
+
+RewriteRule ^command-editExecutive/([0-9a-zA-Z_-]+)$ command-editExecutive.php?edit=$1 [NC,L]
+RewriteRule ^command-editExecutive/([0-9a-zA-Z_-]+)$ command-editExecutive.php?delete_image=$1 [NC,L]
+
+RewriteRule ^command-editSlider/([0-9a-zA-Z_-]+)$ command-editSlider.php?edit=$1 [NC,L]
+RewriteRule ^command-editSlider/([0-9a-zA-Z_-]+)$ command-editSlider.php?delete_image=$1 [NC,L]
+
+RewriteRule ^command-editSSO/([0-9a-zA-Z_-]+)$ command-editSSO.php?edit=$1 [NC,L]
+RewriteRule ^command-editSSO/([0-9a-zA-Z_-]+)$ command-editSSO.php?delete_image=$1 [NC,L]
+
+
+RewriteRule ^command-editPresident/([0-9a-zA-Z_-]+)$ command-editPresident.php?edit=$1 [NC,L]
+RewriteRule ^command-editPresident/([0-9a-zA-Z_-]+)$ command-editPresident.php?delete_image=$1 [NC,L]
+
+
+RewriteRule ^command-editAward/([0-9a-zA-Z_-]+)$ command-editAward.php?edit=$1 [NC,L]
+RewriteRule ^command-editAward/([0-9a-zA-Z_-]+)$ command-editAward.php?delete_image=$1 [NC,L]
+
+
+RewriteRule ^command-editNews/([0-9a-zA-Z_-]+)$ command-editNews.php?edit=$1 [NC,L]
+RewriteRule ^command-editNews/([0-9a-zA-Z_-]+)$ command-editNews.php?delete_image=$1 [NC,L]
